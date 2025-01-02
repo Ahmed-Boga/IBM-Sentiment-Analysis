@@ -65,9 +65,7 @@ IBM-Sentiment-Analysis/
 
 1. **Clone the Repository**
     
-    ```bash
-    bash
-    Copy code
+    ```
     git clone https://github.com/your-repo/IBM-Sentiment-Analysis.git
     cd IBM-Sentiment-Analysis
     
@@ -75,18 +73,14 @@ IBM-Sentiment-Analysis/
     
 2. **Install Dependencies**
     
-    ```bash
-    bash
-    Copy code
+    ```
     pip install flask requests
     
     ```
     
 3. **Run the Application**
     
-    ```bash
-    bash
-    Copy code
+    ```
     python server.py
     
     ```
@@ -110,9 +104,7 @@ Open a web browser and go to `http://127.0.0.1:5000`.
 
 Example Request:
 
-```perl
-perl
-Copy code
+```
 GET /sentimentAnalyzer?textToAnalyze=I%20love%20coding!
 
 ```
@@ -123,9 +115,7 @@ GET /sentimentAnalyzer?textToAnalyze=I%20love%20coding!
 
 Unit tests ensure that the sentiment analysis logic works correctly. Run tests with:
 
-```bash
-bash
-Copy code
+```
 python -m unittest test_sentiment_analysis.py
 
 ```
@@ -137,13 +127,11 @@ python -m unittest test_sentiment_analysis.py
 ### Input
 
 > "I am excited to learn new skills!"
-> 
+
 
 ### Output
 
-```css
-css
-Copy code
+```
 {
   "label": "SENT_POSITIVE",
   "score": 0.92
